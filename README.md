@@ -33,3 +33,12 @@ only when required and the portion of the dom which is required that is why reac
 - functional component - it is a normal javascript function which returns some piece of jsx.
 - class component - class based component is a class which extends React.Component and it has a render method which returns some  
   piece of jsx.
+
+  # Redux Toolkit
+
+  - Install @reduxjs/toolkit and react-redux
+  - Build our store
+  - Connect our store to app
+  - Slice (cartSlice)
+  - dispatch(action)
+  - Selector
