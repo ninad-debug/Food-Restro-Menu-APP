@@ -51,6 +51,7 @@ const Body = () => {
         <div className="m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(e) => {
@@ -77,10 +78,10 @@ const Body = () => {
           <button
             className="px-4 py-2 bg-gray-100 rounded-lg"
             onClick={() => {
-              filteredList = listOfRestaurants.filter(
-                (res) => res.data.avgRating > 4
+              const filteredList = listOfRestaurants.filter(
+                (res) => res.info.avgRating > 4
               );
-              setListOfRestaurants(filteredList);
+              setFilterRestaurant(filteredList);
             }}>
             Top rated Restaurants
           </button>

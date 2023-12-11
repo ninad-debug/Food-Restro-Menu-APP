@@ -42,3 +42,19 @@ only when required and the portion of the dom which is required that is why reac
   - Slice (cartSlice)
   - dispatch(action)
   - Selector
+
+  # Types of testing (developer)
+
+  - Unit testing - it means you test your react components in isolation
+  - Integration testing
+  - End to End testing (e2e testing)
+
+# setting up for testing
+
+- Install React Testing Library
+- install jest
+- install babel dependencies to work with jest
+- confiured using babel.config.js file
+- configure parcel config file to disable default babel transpilation
+- jest configuration // npx jest --init
+- install jsmDOM library // npm i -D jest-environment-jsdom

@@ -1,0 +1,83 @@
+{
+  "info": {
+    "id": "78036",
+    "name": "Burger King",
+    "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+    "locality": "Central Plaza, Kalina",
+    "areaName": "Santacruz East",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Burgers", "American"],
+    "avgRating": 4.2,
+    "feeDetails": {
+      "restaurantId": "78036",
+      "fees": [
+        {
+          "name": "BASE_DISTANCE",
+          "fee": 3200
+        },
+        {
+          "name": "BASE_TIME"
+        },
+        {
+          "name": "ANCILLARY_SURGE_FEE"
+        }
+      ],
+      "totalFee": 3200
+    },
+    "parentId": "166",
+    "avgRatingString": "4.2",
+    "totalRatingsString": "10K+",
+    "sla": {
+      "deliveryTime": 24,
+      "lastMileTravel": 1.5,
+      "serviceability": "SERVICEABLE",
+      "slaString": "24 mins",
+      "lastMileTravelString": "1.5 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2023-12-12 03:45:00",
+      "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "ITEMS",
+      "subHeader": "AT ₹129"
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {
+    "context": "seo-data-db55091f-df3f-4c5d-bc64-55fb22a8e0b6"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/burger-king-central-plaza-kalina-santacruz-east-mumbai-78036",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
