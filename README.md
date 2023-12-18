@@ -1,60 +1,101 @@
-Two types of Export/Import
+# Food-Restro-Menu-APP
 
--Default Export/Import
 
-export default component;
-import component from "path";
+# Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+- HTTPs
+- Tree Shaking - remove unused code
+- Different dev and prod bundles
+
+
+
+# Namaste Food
+
+
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurantCard
+ *      - Img
+ *      - Name of Res, Star Rating, cuisine, delery tie
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
+
+
+
+ Two types of Export/Import
+
+
+- Default Export/Import
+
+export default Component;
+import Component from "path";
+
 
 - Named Export/Import
 
-export const name;
-import {name} from ""path;
+export const Component;
+import {Component} from "path";
+
 
 # React Hooks
+ (Normal JS utility functions)
+- useState() - Superpowerful State Variables in react
+- useEffect()
 
-(Normal Js utility functions)
 
-- useState() - superpowerful state variables in React
-- useEffect() -
 
-whenever a state variable update react will re render the component
+#  2 types Routing in web apps
+ - Client Side Routing
+ - Server Side Routing
 
-whenever state variables update react triggers a reconciliation cycle(re-renders the component)
 
-why react is fast
--> this react react fibre , the new reconciliation algorithm which finds out the difference between two virtual dom and updates the dom
-only when required and the portion of the dom which is required that is why react is fast.
 
-- 2 types of Routing
 
-- client Side Routing
-- server side routing
-
-- functional component - it is a normal javascript function which returns some piece of jsx.
-- class component - class based component is a class which extends React.Component and it has a render method which returns some  
-  piece of jsx.
-
-  # Redux Toolkit
-
+ # Redux Toolkit
   - Install @reduxjs/toolkit and react-redux
   - Build our store
-  - Connect our store to app
+  - Connect our store to our app
   - Slice (cartSlice)
   - dispatch(action)
   - Selector
 
-  # Types of testing (developer)
 
-  - Unit testing - it means you test your react components in isolation
-  - Integration testing
-  - End to End testing (e2e testing)
+# Types of testing (devloper)
+ - Unit Testing
+ - Integration Testing
+ - End to End Testing - e2e testing
 
-# setting up for testing
-
-- Install React Testing Library
-- install jest
-- install babel dependencies to work with jest
-- confiured using babel.config.js file
-- configure parcel config file to disable default babel transpilation
-- jest configuration // npx jest --init
-- install jsmDOM library // npm i -D jest-environment-jsdom
+# Setting up Testing in our app
+ - Install React Testing Library
+ - Installed jest
+ - Installed Babel dependencies
+ - Configure Babel 
+ - Configure Parcel Config file to disable default babel transpilation 
+ - Jest  - npx jest --init
+ - Install jsdom library
+ - Install @babel/preset-react - to make JSX work in test cases
+ - Include @babel/preset-react inside my babel config
+ - npm i -D @testing-library/jest-dom
+ 
