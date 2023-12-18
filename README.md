@@ -1,5 +1,3 @@
-# Food-Restro-Menu-APP
-
 
 # Parcel
 - Dev Build
@@ -22,7 +20,7 @@
 
 
 
-# Namaste Food
+# Food-Restro-Menu-APP
 
 
 /**
