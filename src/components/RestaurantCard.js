@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { AiFillStar } from "react-icons/ai";
 import { CDN_URL } from "../utils/constants";
 
 const RestaurantCard = (props) => {
@@ -10,17 +10,17 @@ const RestaurantCard = (props) => {
   return (
     <div
       data-testid="resCard"
-      className="m-4 p-4 w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200">
+      className="border-2 space-y-2 hover:shadow-xl w-56 rounded-md p-3 m-5 cursor-pointer">
       <img
-        className="rounded-lg"
+        className="w-full"
         alt="res-logo"
         src={CDN_URL + cloudinaryImageId}
       />
-      <h3 className="font-bold py-4 text-lg">{name}</h3>
-      <h4>{cuisines.join(", ")}</h4>
-      <h4>{avgRating} stars</h4>
-      <h4>{costForTwo}</h4>
-      <h4>{sla?.slaString}</h4>
+      <h2 className="text-xl font-bold">{name}</h2>
+      <p>{cuisines.join(", ")}</p>
+      <span className="bg-green-300 w-fit p-1 text-sm font-semibold rounded-lg flex items-center">
+        <AiFillStar className="star mr-1" /> {avgRating} starts
+      </span>
     </div>
   );
 };
